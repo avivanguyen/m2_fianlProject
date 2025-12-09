@@ -356,7 +356,6 @@ Steps styling
 .steps__description {
     width: 50%;
     padding: 32px 0;
-    padding-left: 60px;
 }
 
 .step {
@@ -390,9 +389,4 @@ Steps styling
     font-size: 14px;
     font-weight: 500;
     line-height: 1.5;
-}
-
-.steps__description .section__title {
-    text-align: left;
-    /*ensures the title in this specific section is left-aligned*/
 }
