@@ -33,23 +33,8 @@ button {
     cursor: pointer;
 }
 
-.btn {
-    background-color: #6415ff;
-    color: white;
-    padding: 12px 32px;
-    border-radius: 500px;
-    border: none;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
 img {
     width: 100%;
-}
-
-.container {
-    padding: 96px 0;
 }
 
 .section__para {
@@ -127,6 +112,10 @@ Header styling
 
 header {
     position: relative;
+}
+
+.container {
+    padding: 96px 0;
 }
 
 header .row {
@@ -297,38 +286,4 @@ main {
     margin-bottom: 96px;
 }
 
-/*
-Quality styling
-*/
 
-#quality .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.quality__description {
-    max-width: 570px;
-    margin-right: 64px;
-}
-
-.quality__description,
-.quality__img--wrapper {
-    width: 50%;
-}
-
-#quality .section__title {
-    line-height: 1.25;
-    text-align: left;
-}
-
-#quality .btn {
-    margin-top: 32px; /*space between the button and para*/
-}
-
-.quality__img--wrapper {
-    display: flex;
-    border: 1px solid rgb(299, 231, 235);
-    border-radius: 4px;
-    position: relative;
-}

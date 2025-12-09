@@ -35,13 +35,7 @@ button {
 
 .btn {
     background-color: #6415ff;
-    color: white;
-    padding: 12px 32px;
-    border-radius: 500px;
-    border: none;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
+    color: ;
 }
 
 img {
@@ -319,16 +313,8 @@ Quality styling
 
 #quality .section__title {
     line-height: 1.25;
-    text-align: left;
 }
 
 #quality .btn {
-    margin-top: 32px; /*space between the button and para*/
-}
-
-.quality__img--wrapper {
-    display: flex;
-    border: 1px solid rgb(299, 231, 235);
-    border-radius: 4px;
-    position: relative;
+    margin-top: 32px;
 }
