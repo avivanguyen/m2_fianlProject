@@ -379,15 +379,5 @@ Steps styling
 }
 
 .step__title {
-    color: #243e63;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: left;
-}
-
-.step__para {
-    color: #718096;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.5;
+    
 }
