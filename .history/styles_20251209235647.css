@@ -260,7 +260,6 @@ Features styling
 .feature__row {
     display: flex;
     align-items: flex-start;
-    width: calc(100% / 3);
     padding: 32px 24px;
 }
 

@@ -258,9 +258,9 @@ Features styling
 }
 
 .feature__row {
+    width: calc(100% / 3);
     display: flex;
     align-items: flex-start;
-    width: calc(100% / 3);
     padding: 32px 24px;
 }
 
@@ -503,14 +503,13 @@ Pricing styling
     width: 100%;
     justify-content: space-between;
     position: relative;
-    margin-top: 30px;
 }
 
 .plan {
     color: rgb(26, 32, 44);
     display: flex;
     flex-direction: column;
-    width: calc(95% / 3); /*adds a spacing between each of the plan cards*/
+    width: calc(95% / 3); /**/
     border-radius: 1px;
     background-color: rgb(255, 255, 255);
     position: relative;
