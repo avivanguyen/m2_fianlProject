@@ -166,7 +166,7 @@ h1 {
     width: 100%;
     padding: 20px 192px 20px 32px;
     border-radius: 500px;
-    border: 2px solid rgba(124, 139, 161, 0.32);
+    border: 2px solid rgb(124, 139, 161);
     font-size: 16px;
     font-weight: 500;
     position: absolute;
