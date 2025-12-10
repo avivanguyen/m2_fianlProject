@@ -510,14 +510,13 @@ Pricing styling
     display: flex;
     flex-direction: column;
     width: calc(95% / 3); /*adds a spacing between each of the plan cards*/
-    border-radius: 8px;
+    border-radius: 1px;
     background-color: rgb(255, 255, 255);
     position: relative;
     text-align: center;
     box-shadow: -6px 0 12px rgba(0, 0, 0, 0.15), 
                 6px 0 12px rgba(0, 0, 0, 0.15), 
                 0 8px 12px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
 }
 
 .plan__stripe {
@@ -702,7 +701,7 @@ footer {
 }
 
 .footer__copyright {
-    color: white;
+    color: #cbd5e0;
     font-weight: 500;
 }
 
