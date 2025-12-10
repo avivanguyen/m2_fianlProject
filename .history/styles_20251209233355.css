@@ -509,7 +509,7 @@ Pricing styling
     color: rgb(26, 32, 44);
     display: flex;
     flex-direction: column;
-    width: calc(95% / 3);
+    width: calc(100% / 3);
     border-radius: 1px;
     background-color: rgb(255, 255, 255);
     position: relative;
