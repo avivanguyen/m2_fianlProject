@@ -254,12 +254,13 @@ Features styling
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
+    gap: 24px;
 }
 
 .feature__row {
     display: flex;
     align-items: flex-start;
-    width: calc(100% / 3);
+    width: calc(33.333% - 16px);
     padding: 32px 24px;
 }
 
