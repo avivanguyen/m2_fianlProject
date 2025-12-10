@@ -45,17 +45,8 @@ button {
     cursor: pointer;
 }
 
-.btn,
-.header__email--btn,
-.nav__link--primary {
-    transition: filter 160ms ease, transform 120ms ease, background-color 160ms ease;
-}
-
-.btn:hover,
-.header__email--btn:hover,
-.nav__link--primary:hover {
-    filter: brightness(0.75);
-    transform: translateY(-1px);
+.button:hover {
+    background-color: #400b5c;
 }
 
 img {
@@ -122,23 +113,6 @@ nav {
     border-bottom: 2px solid transparent;
     position: relative;
     margin: 0 24px;
-    transition: all 200ms;
-}
-
-.nav__link:after {
-    content: ""; /*creates an pseudo*/
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -6px;
-    left: 0; /*makes sure that the underline is attached to parent*/
-    background: #6415ff;
-    transition: all 200ms ease;
-    opacity: 0;
-}
-
-.nav__link:hover:after {
-    opacity: 1;
 }
 
 .login {
@@ -154,11 +128,6 @@ nav {
     border-radius: 9999px;
     border: none;
     width: auto;
-}
-.nav__link--primary::after {
-    content: ""; /*turning on pseudo*/
-    width: 0;
-    height: 0;
 }
 
 /*
@@ -650,15 +619,6 @@ Pricing styling
     width: 70%; /*makes it 70% of the parent*/
     margin-top: 18px;
     margin-bottom: 18px;
-}
-
-.plan__button {
-    transition: filter 160ms ease, transform 120ms ease, background-color 160ms ease;
-}
-
-.plan__button:hover {
-    filter: brightness(0.85);
-    transform: translateY(-1px);
 }
 
 .plan:nth-child(2) {

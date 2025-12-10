@@ -46,14 +46,12 @@ button {
 }
 
 .btn,
-.header__email--btn,
-.nav__link--primary {
+.header__email--btn {
     transition: filter 160ms ease, transform 120ms ease, background-color 160ms ease;
 }
 
 .btn:hover,
-.header__email--btn:hover,
-.nav__link--primary:hover {
+.header__email--btn:hover {
     filter: brightness(0.75);
     transform: translateY(-1px);
 }
@@ -156,9 +154,7 @@ nav {
     width: auto;
 }
 .nav__link--primary::after {
-    content: ""; /*turning on pseudo*/
-    width: 0;
-    height: 0;
+    content: "";
 }
 
 /*

@@ -52,8 +52,7 @@ button {
 }
 
 .btn:hover,
-.header__email--btn:hover,
-.nav__link--primary:hover {
+.header__email--btn:hover {
     filter: brightness(0.75);
     transform: translateY(-1px);
 }
