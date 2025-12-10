@@ -608,6 +608,12 @@ Pricing styling
 
 .plan:nth-child(2) {
     background-color: rgb(102, 126, 234);
+    color: white !important; 
+}
+
+.plan:nth-child(2) .plan__top,
+.plan:nth-child(2) .plan__middle {
+    color: white !important;
 }
 
 .plan:nth-child(2) .plan__name,

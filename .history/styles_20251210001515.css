@@ -606,15 +606,17 @@ Pricing styling
     margin-bottom: 18px;
 }
 
-.plan:nth-child(2) {
+.plan__primary--purple {
     background-color: rgb(102, 126, 234);
+    opacity: 100%;
+    color: white !important;
 }
 
-.plan:nth-child(2) .plan__name,
-.plan:nth-child(2) .plan__price,
-.plan:nth-child(2) .plan__target,
-.plan:nth-child(2) .plan__duration,
-.plan:nth-child(2) .plan__feature {
+.plan:nth-child(2) .plan__primary--purple {
+    color: white !important;
+}
+
+.plan__primary--purple .plan__button {
     color: white !important;
 }
 
