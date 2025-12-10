@@ -705,12 +705,4 @@ footer {
     margin-left: -16px;
 }
 
-.footer__social--link {
-    display: flex;
-    justify-content: center;
-    background: white;
-    margin-left: 16px;
-    padding: 8px;
-    border-radius: 50%;
-    cursor: pointer;
-}
+.footer__social--link

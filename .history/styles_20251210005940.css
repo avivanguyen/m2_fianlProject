@@ -695,22 +695,5 @@ footer {
 }
 
 .footer__copyright {
-    color: #cbd5e0;
-    font-weight: 500;
-}
-
-.footer__socials {
-    display: flex;
-    align-items: center;
-    margin-left: -16px;
-}
-
-.footer__social--link {
-    display: flex;
-    justify-content: center;
-    background: white;
-    margin-left: 16px;
-    padding: 8px;
-    border-radius: 50%;
-    cursor: pointer;
+    color
 }
