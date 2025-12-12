@@ -1262,12 +1262,7 @@ Responsive styling
     }
 
     .testimonial__bottom {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .testimonial__button {
-        margin-top: 20px;
+        flex
     }
 
     #start .container {

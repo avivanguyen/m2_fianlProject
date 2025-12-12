@@ -830,7 +830,7 @@ Testimonial styling
 }
 
 .divider {
-    padding-left: 20px;
+    ;
 }
 
 .testimonial__button {
@@ -1259,15 +1259,6 @@ Responsive styling
         text-align: center;
         width: 100%;
         max-width: 450px;
-    }
-
-    .testimonial__bottom {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .testimonial__button {
-        margin-top: 20px;
     }
 
     #start .container {

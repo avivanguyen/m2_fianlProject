@@ -1261,14 +1261,7 @@ Responsive styling
         max-width: 450px;
     }
 
-    .testimonial__bottom {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .testimonial__button {
-        margin-top: 20px;
-    }
+    .testimonial
 
     #start .container {
         padding: 48px 0;

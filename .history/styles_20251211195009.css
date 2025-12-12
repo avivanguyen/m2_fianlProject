@@ -795,8 +795,7 @@ Testimonial styling
 
 .testimonial__bottom {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-between;flex
 }
 
 .testimonial__profile {
@@ -827,10 +826,6 @@ Testimonial styling
 .testimonial__buttons {
     display: flex;
     align-items: center;
-}
-
-.divider {
-    padding-left: 20px;
 }
 
 .testimonial__button {
@@ -1259,15 +1254,6 @@ Responsive styling
         text-align: center;
         width: 100%;
         max-width: 450px;
-    }
-
-    .testimonial__bottom {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .testimonial__button {
-        margin-top: 20px;
     }
 
     #start .container {
