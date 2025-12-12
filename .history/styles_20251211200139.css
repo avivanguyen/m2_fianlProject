@@ -878,7 +878,7 @@ Start section styling
     display: flex;
     justify-content: flex-end;
     width: 50%;
-    gap: 20px;
+    gap: ;
 }
 
 .start__button {
